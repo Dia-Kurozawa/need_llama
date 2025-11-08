@@ -1,6 +1,6 @@
 # Novel Classification with BERT and LLaMA Ensemble Models
 
-This repository contains implementations of ensemble models for novel classification tasks, specifically designed to classify text samples as either "common" or "unique" novels. Two different approaches are implemented using state-of-the-art transformer models: BERT and LLaMA.
+This repository contains implementations of ensemble models for novel classification tasks, specifically designed to classify text samples as either "common" or "unique" needs. Two different approaches are implemented using state-of-the-art transformer models: BERT and LLaMA.
 
 ## Overview
 
@@ -50,7 +50,7 @@ pip install torch transformers pandas numpy scikit-learn peft bitsandbytes matpl
 ## Data Format
 
 The models expect data in Excel format with the following columns:
-- `text`: The novel text content
+- `text`: The need text content
 - `label`: Binary label (0 for "Common", 1 for "Unique")
 
 Data files referenced in the code:
